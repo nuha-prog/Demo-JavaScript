@@ -1,0 +1,24 @@
+Klausur  JavaScript 05.03.2024
+=============================================================
+
+In EINER HTML-Seite sollen folgende JavaSCript-Anwendungen eingebaut werden:
+
+- 	Anzeigen eines laufenden Countdowns 
+	zum Frühlingsanfang am 20. März 2024 um 04:06 Uhr
+	Angezeigt werden Tage, Stunden, Minuten und Sekunden
+	
+- 	Erstellen einer einfachen Bildergalerie mit beiliegenden Bildern
+	Die Bilder werden als Thumbnails eingebaut und tauschen durch Anklicken 
+	ein großes Bild aus
+	
+-	Beim Aufrufen der Seite wird die Hintergrundfarbe 
+	der Webseite zufällig aus einer Gruppe von 10 Farben ausgewählt 
+	
+-	Beim Klick auf einen Button wird der Inhalt eine Textfeldes ausgelesen
+	und damit ein neuer Absatz erzeugt, der der Seite dann hinzugefügt wird.
+	Zusätzlich kann die Farbe des Textes über ein Color-Feld bestimmt werden 
+	
+Bitte die esretllte HTML-SEite und alle zugehörigen Dateien zippen und
+anschließend hochladen
+
+Viel Erfolg

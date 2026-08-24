@@ -1,0 +1,66 @@
+<!DOctype html >
+<html lang="de-DE">
+<head>
+<title>javascript</title>
+<meta charset="Utf-8">
+<style>         </style>
+
+<script>
+
+let x = Math.random();
+			
+document.write("Zufallszahl: "+x+"<hr>");
+			
+x = x*6;
+			
+document.write("Zufallszahl x 6: "+x+"<hr>");
+			
+			x = Math.floor(x);
+			
+			document.write("Zufallszahl abgerundet: "+x+"<hr>");
+			
+
+</script>
+</head>
+<body>
+   	
+    <h1>JavaScript</h1>
+
+    <div id="schow"></div>
+
+<script>
+let tag=[20,19,18,17,16,15.14,13.12.11,10]
+let i=1
+letx
+function uhr(){
+for(let i=1;i<=11;i++){
+    let x=tag[i];
+
+
+
+let std = getHours();
+let min = getMinutes();
+let sek = getSeconds();
+
+document.querySelector("#schow").innerHTML = +x+" "std+":"+min+":"+sek;}
+/*function uhr(){
+			//let tag = 
+			let jetzt = new Date();
+			let std = jetzt.getHours();
+			let min = jetzt.getMinutes();
+			let sek = jetzt.getSeconds();
+		
+			if(std<10)std="0"+std;
+			if(min<10)min="0"+min;
+			if(sek<10)sek="0"+sek;
+		
+			document.querySelector("#anzeige").innerHTML = std+":"+min+":"+sek;
+		}
+		
+		setInterval(uhr,-1000);*/
+
+        setInterval(uhr,1000);
+		
+</script> 
+</body>
+</html>
